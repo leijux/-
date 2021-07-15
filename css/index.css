@@ -1,5 +1,12 @@
+body {
+  margin: 0;
+}
+#jl {
+  background-image: url("https://www.bbgu.edu.cn/images/top_bg.jpg");
+  height: 100px;
+}
 #lkw {
-    width: 100%;
-    height: auto;
-    background-color: #168eda;
+  width: 100%;
+  height: auto;
+  background-color: #168eda;
 }
