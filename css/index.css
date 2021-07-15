@@ -15,15 +15,15 @@ body {
 #lkw {
     width: 100%;
     height: 100%;
-    background-color: #168eda;
+    outline-color: #168eda;
 }
 
 .pageMenu ul {
     list-style: none;
-    justify-content: center;
 }
 
 .pageMenu li {
-    width: 10%;
+    width: 100px;
     float: left;
+    text-align: center;
 }
