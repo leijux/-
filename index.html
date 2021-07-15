@@ -3,13 +3,16 @@
 <!-- 自适应网页设计 -->
 <!-- 网页宽度默认等于屏幕宽度 width=device-width-->
 <!-- 原始缩放比例1.0  initial-scale=1-->
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <html>
-<meta charset="utf-8">
-<title>bbgu</title>
-<script src="./js/index.js"></script>
-<link rel="stylesheet" type="text/css" href="./css/index.css">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <title>bbgu</title>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
 
 <body>
     <div class="container">
@@ -23,69 +26,71 @@
                 </div>
                 <div class="txt">
                     <div class="box_conTxt">
-                        <img src="https://www.bbgu.edu.cn/images/t_conTxt.png" border="0" width="421" height="66" />
+                        <img src="https://www.bbgu.edu.cn/images/t_conTxt.png" width="421" height="66" />
                     </div>
-                    <a id="wx" class="div-inline" href="javascript:;">
-                        <img src="https://www.bbgu.edu.cn/images/weixin.gif">
-                    </a>
+                    <span>
+                        <a id="wx" class="div-inline" href="javascript:;">
+                            <img src="https://www.bbgu.edu.cn/images/weixin.gif">
+                        </a>
+                    </span>
                     <div id="wxrwm" class="pa" style="display: none; position: absolute;">
-                        <img src="	https://www.bbgu.edu.cn/images/ewm.jpg" alt="weixin" width="170" height="170">
+                        <img src="	https://www.bbgu.edu.cn/images/ewm.jpg" title="微信" width="170" height="170">
                     </div>
-                    <div class="wb div-inline">
+                    <span class="wb div-inline">
                         <a href="https://m.weibo.cn/p/1005056069313932"><img
-                                src="https://www.bbgu.edu.cn/images/webo.gif" alt="wb"></a>
-
-                    </div>
+                                src="https://www.bbgu.edu.cn/images/webo.gif" title="微博"></a>
+                    </span>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="lkw">
-            <!-- 页面菜单 -->
-            <div class="pageMenu">
-                <ul>
-                    <!-- 首页 -->
-                    <li id="homepage">
-                        <a href="http://www.baidu.com">首页</a>
-                    </li>
+    <div id="lkw">
+        <!-- 页面菜单 -->
+        <div class="pageMenu">
+            <ul>
+                <!-- 首页 -->
+                <li id="homepage">
+                    <a href="http://www.baidu.com">首页</a>
+                </li>
 
-                    <!-- 学校概况 -->
-                    <li id="schoolProfile">
-                        <a href="http://www.baidu.com">学校概况</a>
-                    </li>
+                <!-- 学校概况 -->
+                <li id="schoolProfile">
+                    <a href="http://www.baidu.com">学校概况</a>
+                </li>
 
-                    <!-- 机构设置 -->
-                    <li id="institutionalSettings">
-                        <a href="http://www.baidu.com">机构设置</a>
-                    </li>
+                <!-- 机构设置 -->
+                <li id="institutionalSettings">
+                    <a href="http://www.baidu.com">机构设置</a>
+                </li>
 
-                    <!-- 教学管理 -->
-                    <li id="teachingManagement">
-                        <a href="http://www.baidu.com">教学管理</a>
-                    </li>
+                <!-- 教学管理 -->
+                <li id="teachingManagement">
+                    <a href="http://www.baidu.com">教学管理</a>
+                </li>
 
-                    <!-- 科学研究 -->
-                    <li id="scientificResearch">
-                        <a href="http://www.baidu.com">科学研究</a>
-                    </li>
+                <!-- 科学研究 -->
+                <li id="scientificResearch">
+                    <a href="http://www.baidu.com">科学研究</a>
+                </li>
 
-                    <!-- 招生就业 -->
-                    <li id="enrollmentAndEmployment">
-                        <a href="http://www.baidu.com">招生就业</a>
-                    </li>
+                <!-- 招生就业 -->
+                <li id="enrollmentAndEmployment">
+                    <a href="http://www.baidu.com">招生就业</a>
+                </li>
 
-                    <!-- 国际交流 -->
-                    <li id="internationalExchange">
-                        <a href="http://www.baidu.com">国际交流</a>
-                    </li>
+                <!-- 国际交流 -->
+                <li id="internationalExchange">
+                    <a href="http://www.baidu.com">国际交流</a>
+                </li>
 
-                    <!-- 人才招聘 -->
-                    <li id="talentRecruitment">
-                        <a href="http://www.baidu.com">人才招聘</a>
-                    </li>
-                </ul>
-            </div>
+                <!-- 人才招聘 -->
+                <li id="talentRecruitment">
+                    <a href="http://www.baidu.com">人才招聘</a>
+                </li>
+            </ul>
         </div>
+    </div>
     </div>
 </body>
 
