@@ -1,12 +1,23 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 #jl {
-  background-image: url("https://www.bbgu.edu.cn/images/top_bg.jpg");
-  height: 100px;
+    background-image: url("https://www.bbgu.edu.cn/images/top_bg.jpg");
+    height: 100px;
 }
+
 #lkw {
-  width: 100%;
-  height: auto;
-  background-color: #168eda;
+    width: 100%;
+    height: 100%;
+    background-color: #168eda;
+}
+
+.pageMenu ul {
+    list-style: none;
+    justify-content: center;
+}
+
+.pageMenu li {
+    width: 10%;
+    float: left;
 }
