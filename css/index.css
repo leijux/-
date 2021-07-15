@@ -4,9 +4,12 @@ body {
 
 #jl {
   background-image: url("https://www.bbgu.edu.cn/images/top_bg.jpg");
-  height: 50px;
+  height: 100px;
 }
-
+#log {
+  height: 10px;
+  width: 10px;
+}
 #lkw {
   width: 100%;
   height: auto;
