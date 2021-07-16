@@ -1,5 +1,9 @@
 
 window.onload = () => {
+    wx();
+};
+
+function wx() {
     let wx = document.getElementById("wx");
     let wxrwm = document.getElementById("wxrwm");
     wx.onmouseover = () => {
@@ -8,4 +12,4 @@ window.onload = () => {
     wx.onmouseout = () => {
         wxrwm.style = "display: none;position: absolute;";
     };
-};
+}
